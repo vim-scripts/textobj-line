@@ -1,0 +1,21 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=3886
+
+*textobj-line* is a Vim plugin to provide text objects to select a portion of
+the current line.  Sometimes you want to select a portion of the current line
+like "^vg_" or "0v$h".  This plugin provides the text objects for such ranges.
+
+For example, if the current line equals to "__foo_bar_baz__" (where "_"
+represents a whitespace character), you can select "foo_bar_baz" (without
+leading and trailing spaces) by |<Plug>(textobj-line-i)| and "__foo_bar_baz__"
+(with leading and trailing spaces) by |<Plug>(textobj-line-a)|.
+
+
+Requirements:
+- Vim 7.2 or later
+- |textobj-user| 0.3.8 or later (vimscript#2100)
+
+Latest version:
+http://github.com/kana/vim-textobj-line
+
+Document in HTML format:
+http://kana.github.com/config/vim/textobj-line.html

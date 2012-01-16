@@ -1,0 +1,6 @@
+all_files_in_repos :=          Makefile autoload/textobj/line.vim doc/textobj-line.txt plugin/textobj/line.vim test/basics.expected test/basics.input
+current_branch := master
+origin_name := origin
+origin_uri := /Users/kana/working/vim-textobj-line
+repos_name := vim-textobj-line
+version := 0.0.0
